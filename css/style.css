@@ -74,6 +74,20 @@ h1 {
   text-align: center;
 }
 
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid #DDAF94;
+  border-radius: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
 input, 
 textarea {
   box-sizing: border-box;
