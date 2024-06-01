@@ -1,95 +1,84 @@
-/* Universal Selector */
-* {
-  margin:0;
-  padding:0;  
-}
 
-/* Element Selectors */
 body {
-  position: relative;
-  font-family: "Copperplate",sans-serif;
-  font-size: 20px;
-  background-color: #FDF8F5;
-  color: #4F4846;
+  font-family: 'Amatic SC',Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
-h1,
-h2 {
-  margin: 20px;
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #efb30be8;
 }
 
-main {
-  padding: 60px 0;
+h1 {
+  color: #ffffff;
+  text-align: center;
 }
 
-li {
-  display: inline;
-  padding: 0px 20px;
-  text-decoration: none;
-}
-
-a {
-  text-decoration: none;
-  color: #FDF8F5;
-}
-
-header,
-footer {
-  height: 60px;
-  width: 100%;
-  line-height: 60px;
-  background-color: #2345de;
-}
-
-header {
-  position: fixed;
-  border-bottom: 10px solid #DDAF94;
-}
-
-footer {
-  position: absolute;
-  margin-top: 0;
-  bottom: 0;
-  border-bottom: 10px solid #4F4846;
-  color: #FDF8F5;    
-}
-
-figure {
-  margin-bottom: 40px;
-}
-
-img {
+.profile-pic {
   display: block;
-  margin: 20px auto;
-  width: 500px;
+  margin: 0 auto 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ffffff;
 }
 
-section {
-  margin-bottom: 0;
-  padding: 20px 10px 40px 10px;
-  border-top: 3px solid #db961e;
-  background-color:  #e8e2bf;
+.section {
+  margin-bottom: 50px;
 }
 
-form {
-  /* Center the form on the page */
-  margin: 0 auto;
-  width: 500px;
-  padding: 10px;
-  border: 5px solid #DDAF94;
-  border-radius: 20px;
+.section h2 {
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #ffffff;
+  text-align:center;
 }
 
-label {
+.social-links a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 110px;
+  align-items:center;
+  justify-content:center;
+}
+
+.tag-cloud {
   display: inline-block;
-  width: 100px;
-}
+  color: white;
+  padding: 8px;
+  border-radius: 25px;
+  margin-top: 8px;
+  background-color: #2196F3;
+  margin-left: 20px;
   
+}
+
+.one {background-color: #04AA6D;} /* Green */
+.two {background-color: #2196F3;} /* Blue */
+.three {background-color: #ff9800;} /* Orange */
+.four {background-color: #f44336;} /* Red */
+.five {background-color: #e7e7e7; color: black;} /* Gray */
+
+.text-right {
+  display:block;
+  text-align: center;
+}
+.text-center {
+  text-align: center;
+}
+
 input, 
 textarea {
   box-sizing: border-box;
   width: 300px;
-  border: 1px solid #4F4846;
+  border: 1px solid #0c4fe0;
 }
 
 textarea {
@@ -100,15 +89,14 @@ textarea {
 button {
   height: 40px;
   width: 120px;
-  background-color: #4F4846;
+  background-color: #1c81d9;
   color: #FDF8F5;
-}
- 
-/* Class Selectors */
-.text-center {
-  text-align: center;
+  border-radius: 12px;
 }
 
-.text-right {
-  text-align: right;
-}
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #666;
+  }
